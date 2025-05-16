@@ -2,7 +2,7 @@ function calcularImc(peso, altura) {
     let imc = peso / (altura**2);
 }
 mostrarImc = calcularImc(68, 178);
-console.log(`O seu imc é abasd ${imc}`);
+console.log(`O seu imc é ${imc}`);
 
 function calcularFatoriral(numero) {
     let a = 1;
